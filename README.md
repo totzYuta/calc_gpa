@@ -18,18 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-1. Make your grades information text file, listed your all grades.
+1. Make your grades information text file, listed your all grades. Name it "grades.txt"
 
 Example
 
-```
+```ruby:grades.txt
 c,a,a+,b,b,f,a
 ```
 
-2. Run ``calc_gpa`` gem
+2. Run command below where the file, "grades.txt" file is in.
 
 ```
-$ calc_gem
+$ ruby -e "require 'calc_gpa'; CalcGpa.initialize; CalcGpa.calc"
 ```
 
 
