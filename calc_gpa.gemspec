@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yuta.totz@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   end
 
   spec.summary       = %q{Gem to calculate your GPA from text file}
