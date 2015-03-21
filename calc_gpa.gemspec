@@ -10,12 +10,12 @@ Gem::Specification.new do |spec|
   spec.email         = ["yuta.totz@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
   end
 
   spec.summary       = %q{Gem to calculate your GPA from text file}
   spec.description   = %q{Run app with an argument of text file of your all grades. It can help you to calculate your GPA}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/totzYuta/calc_gpa"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
